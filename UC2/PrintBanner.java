@@ -1,4 +1,4 @@
-public class UC2PrintBanner {
+public class PrintBanner {
     public static void main(String[] args) {
         // Line 1
         System.out.println("  *** *** **** **** ");
