@@ -4,7 +4,7 @@
  * @author Himanshu Mahala
  * @version 1.0
  */
-public class OOPSBannerApp {
+public class PrintOOPS {
     public static void main(String[] args) {
         // Print the literal text "OOPS"
         System.out.println("OOPS");
