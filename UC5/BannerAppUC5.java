@@ -1,19 +1,34 @@
+/**
+ * UC5: Creates a decorative OOPS banner with labels using String arrays and String.join()
+ * 
+ * This program demonstrates the use of String arrays combined with String.join()
+ * to create a more flexible and readable banner that includes descriptive labels.
+ */
 public class BannerAppUC5 {
 
     public static void main(String[] args) {
 
-        // UC5: Array declaration + initialization using String.join()
+        // Initialize a String array containing the complete banner design with labels
+        // Each element represents one row, with content centered using spaces and String.join()
         String[] banner = {
+                // Top border row with asterisks
                 String.join(" ", "*", "*", "*", "*", "*", "*", "*"),
+                // Top padding row
                 String.join(" ", "*", " ", " ", " ", " ", " ", "*"),
+                // Row displaying "OOPS" and "BANNER" text
                 String.join(" ", "*", " ", "OOPS", "BANNER", " ", "*"),
+                // Row displaying "UC5" and "ARRAY" text
                 String.join(" ", "*", " ", "UC5", "ARRAY", " ", "*"),
+                // Row displaying "STRING.JOIN" demonstration
                 String.join(" ", "*", " ", "STRING.JOIN", " ", "*"),
+                // Bottom padding row
                 String.join(" ", "*", " ", " ", " ", " ", " ", "*"),
+                // Bottom border row with asterisks
                 String.join(" ", "*", "*", "*", "*", "*", "*", "*")
         };
 
-        // Enhanced for loop to display banner
+        // Iterate through each element in the banner array and display it
+        // The enhanced for-loop simplifies iteration without needing index management
         for (String line : banner) {
             System.out.println(line);
         }
