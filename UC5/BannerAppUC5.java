@@ -10,7 +10,7 @@ public class BannerAppUC5 {
 
         // Initialize a String array containing the complete banner design with labels
         // Each element represents one row, with content centered using spaces and String.join()
-        String[] banner = {
+        String[] banner = {a
                 // Top border row with asterisks
                 String.join(" ", "*", "*", "*", "*", "*", "*", "*"),
                 // Top padding row
