@@ -1,12 +1,24 @@
 /**
- * UC1: Prints the literal text "OOPS" to the console.
+ * UC2: Displays a decorative banner with ASCII art representation of "OOPS"
  * 
- * @author Himanshu Mahala
- * @version 1.0
+ * This program prints a multi-line ASCII art banner to display the word "OOPS"
+ * using asterisks and spaces to create a visual pattern.
  */
-public class PrintOOPS {
+public class PrintBanner {
     public static void main(String[] args) {
-        // Print the literal text "OOPS"
-        System.out.println("OOPS");
+        // Display the top border and first letter of the banner
+        System.out.println("  *** *** **** **** ");
+        // Display the second row of the banner
+        System.out.println(" * * * * * * * ");
+        // Display the third row of the banner
+        System.out.println(" * * * * * * * ");
+        // Display the fourth row of the banner (middle section)
+        System.out.println(" * * * * **** *** ");
+        // Display the fifth row of the banner
+        System.out.println(" * * * * * * ");
+        // Display the sixth row of the banner
+        System.out.println(" * * * * * * ");
+        // Display the final row and bottom border of the banner
+        System.out.println("  *** *** * **** ");
     }
 }
